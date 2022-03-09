@@ -1,0 +1,22 @@
+{
+  "name": "{{name}}",
+  "description": "{{description}}",
+  "version": "{{version}}",
+  "main": "src/index.js",
+  "bin": {
+    "{{name}}": "src/index.js",
+    "{{command}}": "src/index.js"
+  },
+  "scripts": {
+    "format": "prettier --write \"./**/*.{js,json}\""
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "author": {
+    "name": "{{authorName}}",
+    "email": "{{authorEmail}}",
+    "url": "{{authorUrl}}"
+  },
+  "license": "{{license}}"
+}
